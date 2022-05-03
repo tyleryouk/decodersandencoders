@@ -1,0 +1,19 @@
+# Load canceled
+# Compile of lab6.sv failed with 1 errors.
+# Compile of lab6.sv failed with 1 errors.
+# Compile of lab6.sv failed with 1 errors.
+# Compile of lab6.sv was successful.
+# Compile of lab6.sv was successful.
+vsim -gui work.lab6
+# vsim -gui work.lab6 
+# Start time: 14:53:04 on Mar 25,2022
+# Loading sv_std.std
+# Loading work.lab6
+add wave sim:/lab6/*
+run -all
+# ** Note: $finish    : C:/intelFPGA/HW9Lab/lab6.sv(48)
+#    Time: 80 ps  Iteration: 0  Instance: /lab6
+# 1
+# Break in Module lab6 at C:/intelFPGA/HW9Lab/lab6.sv line 48
+# End time: 15:07:02 on Mar 25,2022, Elapsed time: 0:13:58
+# Errors: 0, Warnings: 9
